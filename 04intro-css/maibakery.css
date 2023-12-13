@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #69472f;
+    padding: 1rem 2%;
+}
+header h1 { 
+    margin: 0;
+    color: #f4efee;
+}
+header p {
+    margin: 0;
+    color: #f4efee;
+}
+/* nav stuff goes here */
+nav { 
+    background-color: #dfc897;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #69472f;
+    font-weight: 600;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #dbb647;
+    color: #93452a;
+}
+nav a:hover {
+    color: #f4efee;
+}
+/* main stuff goes here */
+
+main {
+    padding: 1rem 2%;
+}
+main h1 {
+    color: #93452a;
+    margin: .5rem;
+}
+main h2 { 
+    color: #dbb647;
+    margin: 0;
+}
+main ul {
+    background-color: #dfc897;
+    list-style-type:circle 
+}
+main p {
+    margin: 0 0 .3rem 0;
+}
+main dl dt {
+    color:  #93452a;
+    font-weight:600;
+}
+main address {
+    background-color: #dfc897;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1.5px solid #69472f;
+    border-color: #93452a;
+    border-radius: .5rem;
+}
+main ol {
+    background-color: #dfc897;
+    list-style-type:
+}
+main p strong {
+    color: #93452a;
+    font-weight:600;
+}
+main a {
+    color: #93452a;
+}
+main a:hover {
+    color: #dbb647;
+}
+/* footer stuff goes here */
