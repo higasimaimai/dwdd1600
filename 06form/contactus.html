@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mai Bakery: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Learn about Mai Bakery">
+        <meta name="author" content="Micah Brailsford">
+        <link rel="stylesheet" href="maibakery.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1><a id="top">Mai Bakery</a></h1>
+            <p>Hospitality with the aroma of bread</p>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Mai Home</a></li>
+                <li><a href="maiconcept.html">Mai Concept</a></li>
+                <li><a href="gallery.html">Mai Breads</a></li>
+                <li><a href="maiblog.html">Mai Blog</a></li>
+                <li class="active"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page main -->
+        <main>
+        <h1>Contact Us</h1>
+        <p><strong>We are grateful for your help!</strong> If you have any comments or questions, please contact us.</p>
+            
+        <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+        <legend>Please fill out these informatioin</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Email*<input type="email" name="email" required placeholder="emailus@mail.com"></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>How do you want us to reach out to you?</legend>
+        <label><input type="radio" name="method" value="email">Email</label>
+        <label><input type="radio" name="method" value="phone">Cell Phone</label>
+            
+        <label>Preferred Delivery Time
+            <select name="time">
+                <option value="none">Please Select</option>
+                <option value="noon">Between 11:30am and 1:30pm</option>
+                <option value="afternoon">Between 1:30pm and 3:30pm</option>
+                <option value="afternoon">Between 3:30pm and 5:30pm</option>
+            </select>
+        </label>
+        </fieldset>
+        
+        <fieldset>
+        <legend>Content of the Question</legend>
+        <label><input type="checkbox" name="aboutBread" value="chosen">About Bread</label>
+        <label><input type="checkbox" name="aboutRecruiting" value="chosen">About Recruiting</label>
+        <label><input type="checkbox" name="aboutOpeninghour" value="chosen">About Opening Hour</label>
+        <label><input type="checkbox" name="other" value="chosen">Other</label>
+        </fieldset>
+            
+        <label>Comments
+                <textarea name="comments"></textarea>
+        </label>
+            
+        <input type="submit" value="Send Comments">
+        </form>
+        
+            
+        <p><a href="#top">BACK TO TOP</a></p>  
+            
+        </main>
+        <!-- Start of the page footer -->
+        <footer style="clear:both;">
+        <p>&copy; 12.2023 &bull; Micah Brailsford &bull; <a href=mailto:micah.m.b@gmail.com>Email Us</a></p>
+        </footer>
+    </body>
+</html>
